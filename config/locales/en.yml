@@ -1,19 +1,23 @@
 en:
-  base_title: Ruby on Rails Tutorial App
-  sample_app: Sample App
-  tutorial_link: Ruby on Rails Tutorial
-  "This is the home page for the": This is the home page for the
-  "sample application": sample application
-  "Help": Help
-  "Get help on the Ruby on Rails Tutorial at the": Get help on the Ruby on Rails Tutorial at the
-  help_section: Rails Tutorial help section.
-  "To get help on this sample app, see the": To get help on this sample app, see the
-  book: book
-  "About": About
-  "The": The
-  "is a": is a
-  "and": and
-  "screencast series": screencast series
-  "to teach web development with": to teach web development with
-  rails: Ruby on Rails.
-  "This is the sample application for the tutorial": This is the sample application for the tutorial.
+  base_title: "Ruby on Rails Tutorial App"
+  layouts:
+    _header:
+      sample_app: "Sample Application"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    _footer:
+      the: "The "
+      ruby_on_rails_tutorial: "Ruby on Rails tutorial"
+      by: " by "
+      michael_hartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  static_pages:
+    home:
+      welcome_to_the_sample_app: "Welcome to the sample app"
+      this_is_the_homepage_for: "This is the homepage for"
+      ruby_on_rails_tutorial: "Ruby on Rails tutorial"
+      sample_application: "Sample Application"
+      sign_up_now: "Sign up now!"

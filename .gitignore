@@ -24,3 +24,6 @@
 
 # Ignore all test file
 /test/*
+
+# Ignore new file
+auto_create_i18n.rb

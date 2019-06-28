@@ -1,6 +1,14 @@
-<h1><%= t :sample_app %></h1>
-<p>
-  <%= t "This is the home page for the" %>
-  <a href="https://www.railstutorial.org/"><%= t :tutorial_link %></a>
-  <%= t "sample application." %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome_to_the_sample_app" %></h1>
+
+  <h2>
+    <%= t ".this_is_the_homepage_for" %>
+    <a href="https://www.railstutorial.org/"><%= t ".ruby_on_rails_tutorial" %></a>
+    <%= t ".sample_application" %>
+  </h2>
+
+  <%= link_to t(".sign_up_now"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            "http://rubyonrails.org/" %>
